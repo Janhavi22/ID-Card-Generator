@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="project.css">
+    
+</head>
+<body>
+    
+    <div class="navbar">
+        
+        <img src="./assets/logo1.jpg" alt="">
+    </div>
+    <hr>
+
+     <!-- ......................... filling info ..................... -->
+
+    <div class="back">
+        <form action="">
+            <h3>
+                Fill in the Form
+            </h3>
+
+            <label for="">Name :</label>
+            <input type="text" id="inName" placeholder="Full Name">
+            <!-- <span class="capital">Enter in Capital letter</span> -->
+
+            <label for="">Birth Date :</label>
+            <input type="date" id="inAdd" placeholder="Address">
+
+            <label for="">Tel.No. :</label>
+            <input type="number" id="inNum" placeholder="Telephone Number">
+
+            <label for="">Field :</label>
+            <input type="text" id="infield" placeholder="Field">
+
+            
+
+            <label for="file" class="upload">Upload Your Image </label>
+            <input type="file" id="file" accept="image/*" onchange="loadImage(event)">  <!-- The onchange event occurs when the value of an HTML element is changed. -->
+        </form>
+        <button type="submit" id="preview"> Preview</button>
+       
+       
+       <!-- ....................id card ........................ -->
+
+        <div class="container">
+            <div class="card" id="result">
+                <header id="head">
+                    <div class="camp">
+                        <img src="./assets/cocsit.jpg" id="logo" alt="">
+                        <h4>Collage of Computer Science and Information Technology</h4>
+                        <span>NAAC Accredited Grade 'B'</span>
+
+                    </div>
+                    
+                </header>
+                <hr>
+                <div class="content">
+                    <span>Student Identity Card</span>
+                    <img src="./assets/usericon.jpg" id="imgdisp" alt="">
+                    <ul>
+                        <li id="name"> </li> 
+                       <li id="Address"></li>
+                       <li id="Number"></li>
+                        <li id="fieldyr"></li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+     
+        <button id="down">Download</button> 
+    </div>
+    <script src="./project.js"></script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex-div{ 
+    display: flex;
+    align-items: center;   
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background: #0b0044;
+    position:sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-left .menu-icon{
+    width: 70px;
+    margin-right: 25px;
+    
+}
+.id{
+    width: 400;
+    font-size: 45px;
+    color: #0b0044;
+    background:#6bb6fb ;
+    border: 2px solid #6bb6fb;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.cg {
+    width: 400;
+    font-size: 30px;
+    color: #6bb6fb;
+    background: transparent;
+}
+
+/* ------------------------------------container--------------------------------------- */
+.radial {
+    background: #0808af;
+    background: -moz-radial-gradient(center,ellipse cover,#867ef1 0,#1b4b7f 100%);
+    background: -webkit-radial-gradient(center,ellipse cover,#3a97da 0,#5a60d0 100%);
+    background: radial-gradient(ellipse at center,#6bb6fb 0,#2370ff 100%);
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    padding-top: 50px;
+}
+.radial {
+    background: #0b0ea5;
+    background: -moz-radial-gradient(center,ellipse cover,#867ef1 0,#1b4b7f 100%);
+    background: -webkit-radial-gradient(center,ellipse cover,#3a9fda 0,#5a60d0 100%);
+    background: radial-gradient(ellipse at center,#6bb6fb 0,#2356ff 100%);
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    padding-top: 50px;
+}
+.section-title {
+    font-size:40px;
+    line-height: 1.4;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    position: relative;
+}
+.section-desc {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.1;margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+div {
+    display: block;
+}
+
+div {
+    display: block;
+}
+.row{
+    display: flex;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+/* html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size-adjust: 100%;
+}
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size-adjust: 100%;
+} */
+.temp{
+    background: #eef1f3;
+    padding: 10px;
+    height: 400px;
+    
+}
+.temp1 img{
+    box-shadow: 10px 10px 8px #898e8f;
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+    margin-top: 40px;
+}
+.temp2 img{
+    box-shadow: 10px 10px 8px #898e8f;
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+    margin-top: 40px;
+    object-fit:fill;
+}
+.container-fluid{
+    background-image: url("./assets/wooden.jpg");
+    height: 500px;
+    /* background-blend-mode: lighten; */
+}
+
+.imgt img{
+box-sizing: inherit;
+max-width: 100%;
+height: auto;
+vertical-align: middle;
+border-style: none;
+}
+#tip{
+    color: #feffff;
+    margin: 20px;
+   
+}
+#tip2{
+    color: #d8ffff;
+    margin: 10px;
+}
+ .imgt{
+-webkit-text-size-adjust: 100%;
+font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+text-align: center;
+color: #c5f7f7;
+box-sizing: inherit;
+position: relative;
+width: 100%;
+min-height: 1px;
+flex: 0 0 33.33%;
+max-width: 33.33%;
+padding: 20px; 
+}
+
+
+.section-desc{
+    margin: 10px;
+}
+.temp-title{
+    font-size: 30px;
+}
+/* .section-items-row{
+    display: flex;
+} */
+
+.slideshow-container {
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    padding: 10px;
+  }
+  
+   /* Hide the images by default  */
+  .mySlides {
+    display: none;
+  }
+  .section-item-desc{
+    color: white;
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/4 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+   .numbertext img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+  } 
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+   
