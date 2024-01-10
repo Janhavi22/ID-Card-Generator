@@ -14,7 +14,7 @@ const infield =document.getElementById("infield").value;
  const Number =document.getElementById("Number");
  const fieldyr =document.getElementById("fieldyr");
 
- name.innerHTML=inName;                                      // innerHTML property can be used to write the dynamic html on the html document.
+ name.innerHTML=inName;                                      // innerHTML property can be used to write the dynamic html on the html document!
  Address.innerHTML=inAdd;
  Number.innerHTML=inNum;
  fieldyr.innerHTML=infield ;
