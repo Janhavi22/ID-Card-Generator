@@ -8,7 +8,6 @@ const inAdd =document.getElementById("inAdd").value;
 const inNum =document.getElementById("inNum").value;
 const infield =document.getElementById("infield").value;
 
-
  const name =document.getElementById("name");
  const Address =document.getElementById("Address");
  const Number =document.getElementById("Number");
