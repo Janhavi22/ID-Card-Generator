@@ -18,6 +18,7 @@ const infield =document.getElementById("infield").value;
  Number.innerHTML=inNum;
  fieldyr.innerHTML=infield ;
 }
+
 function loadImage(event){
     const image = document.getElementById("imgdisp");       //The URL.createObjectURL() static method creates a string containing a URL-
     image.src=URL.createObjectURL(event.target.files[0]);   //-representing the object given in the parameter.
