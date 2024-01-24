@@ -1,6 +1,7 @@
 
 const preview =document.getElementById("preview");           //The addEventListener() method allows you to add event listeners on any-
-preview.addEventListener("click",prev);                      // -HTML DOM object such as HTML elements, the HTML document.
+preview.addEventListener("click",prev);                     // -HTML DOM object such as HTML elements, the HTML document.
+
 
 function prev(){
 const inName =document.getElementById("inName").value;        // getelem...ID used to read or edit an HTML element
